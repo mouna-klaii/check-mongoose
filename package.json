@@ -1,0 +1,30 @@
+{
+  "name": "checkpoint-mangoose",
+  "version": "1.0.0",
+  "description": "mongoose node.js",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "author": "Mouna",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "concurrently": "^7.6.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "http-proxy-middleware": "^2.0.6",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "node": "^19.4.0",
+    "react-helmet": "^6.1.0",
+    "react-toastify": "^9.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
